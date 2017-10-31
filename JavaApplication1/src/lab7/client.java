@@ -262,7 +262,7 @@ public class client extends javax.swing.JFrame {
             DefaultListModel list = new DefaultListModel();
             for (int i = 0; i < data.length; i++)
             {
-                list.addElement((i+1) + data[i]);
+                list.addElement((i+1) + ": " + data[i]);
             }
             jList1.setModel(list);
             this.validate();
